@@ -19,7 +19,7 @@ namespace chord::math {
  * @throws std::runtime_error if the input vector is too small
  */
 template <typename E>
-auto mul_vec_w_offset_conj(E&& input, size_t offset, Status& status, size_t trunc_start = 0, size_t trunc_end = 0);
+auto mul_vec_w_offset_conj(const E& input, size_t offset, Status& status, size_t trunc_start = 0, size_t trunc_end = 0);
 
 }  // namespace chord::math
 
