@@ -17,7 +17,7 @@ namespace chord::dsp {
  * @return The frequency-shifted signal.
  */
 template <typename E>
-auto freq_shift(const E&& signal, float fs, float fc);
+auto freq_shift(const E& signal, float fs, float fc);
 
 }  // namespace chord::dsp
 
