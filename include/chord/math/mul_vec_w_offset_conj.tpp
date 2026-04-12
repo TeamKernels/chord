@@ -1,7 +1,7 @@
 namespace chord::math {
 
 template <typename E>
-auto mul_vec_w_offset_conj(const E& input, size_t offset, Status& status, size_t trunc_start, size_t trunc_end) {
+auto mul_vec_w_offset_conj_new(const E& input, size_t offset, Status& status, size_t trunc_start, size_t trunc_end) {
     using T = typename kfr::expression_traits<E>::value_type;
     auto length = input.size() - offset - trunc_end - trunc_start;
     
